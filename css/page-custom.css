@@ -1,0 +1,187 @@
+
+.navbar-cust .navbar-header {
+    width: 100%;
+    max-height: 55px;
+    min-width: 300px;
+}
+
+.navbar-cust .nav-menu-button {
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.navbar-cust .nav-divider {
+    border-left: 1px solid;
+    height: 45px;
+    margin: 3px;
+}
+.navbar-cust .dropdown.nav-menu-button {
+    margin-top: 10px;
+}
+.navbar-cust .nav-dropdown {
+    background-color: #333;
+    color: #fff;
+    width:250px;
+}
+
+.navbar-cust .nav-dropdown:after {
+  position: absolute;
+  top: -6px;
+  right: 8px;
+  display: inline-block;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #333;
+  border-left: 6px solid transparent;
+  content: '';
+}
+
+.navbar-cust .nav-dropdown li a {
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbar-cust .nav-dropdown li a:hover {
+    background: rgba(255,255,255,0.2);
+}
+
+
+/* css for math nav*/
+
+.nav-math.navbar-cust {
+    background-color: #F68944;
+    color: #B04C0E;
+    border-radius: 0px;
+}
+
+.nav-math.navbar-cust .nav li a, .nav-math.navbar-cust .navbar-text,.nav-math.navbar-cust .navbar-text{
+    color: #B04C0E;
+}
+
+ .nav-math.navbar-cust .nav li a:hover,.nav-math.navbar-cust .nav li a:focus, .nav-math.navbar-cust .navbar-text:hover,.nav-math.navbar-cust .navbar-text:focus{
+    color: #98420C;
+}
+
+/* page panel css for math */
+.page-math .page-title {
+    color: #F68944;
+}
+.page-math .panel-default {
+    border-color: #E99F4D;
+}
+.page-math .panel-heading {
+    background-color: #F2CCB1;
+}
+
+
+/* css for science nav*/
+ .nav-science.navbar-cust {
+    background-color: #F2F2F2;
+    color: #848484;
+    border-radius: 0px;
+}
+
+.nav-science.navbar-cust .nav li a, .nav-science.navbar-cust .navbar-text,.nav-science.navbar-cust .navbar-text{
+    color: #848484;
+}
+
+ .nav-science.navbar-cust .nav li a:hover,.nav-science.navbar-cust .nav li a:focus, .nav-science.navbar-cust .navbar-text:hover,.nav-science.navbar-cust .navbar-text:focus{
+    color: #848484;
+}
+
+.page-science .page-title {
+    color: #21AEE7;
+}
+
+/* page panel css for science */
+.page-science .page-title {
+    color: #29B5EC;
+}
+.page-science .panel-default {
+    border-color: #C7E7E7;
+}
+.page-science .panel-heading {
+    background-color: #C9E5F0;
+}
+
+/** page dim button **/
+
+.page-science .btn-dim {
+    color: #FFF;
+    background-color: #818181;
+    border-color: #dfdfdf;
+}
+
+.page-science .btn-dim:hover {
+    color: #FFF;
+    background-color: #707070;
+    border-color: #dfdfdf;
+}
+
+.page-science .btn-breadcrumb .btn.btn-dim:not(:last-child):after {
+  border-left: 10px solid #818181;
+}
+ .page-science .btn-breadcrumb .btn.btn-dim:not(:last-child):before {
+  border-left: 10px solid #818181;
+}
+.page-science .btn-breadcrumb .btn.btn-dim:hover:not(:last-child):after {
+  border-left: 10px solid #707070;
+}
+.page-science .btn-breadcrumb .btn.btn-dim:hover:not(:last-child):before {
+  border-left: 10px solid #707070;
+}
+
+/** page med button **/
+
+.page-science .btn-med {
+    color: #FFF;
+    background-color: #606060;
+    border-color: #dfdfdf;
+}
+
+.page-science .btn-med:hover {
+    color: #FFF;
+    background-color: #505050;
+    border-color: #dfdfdf;
+}
+
+.page-science .btn-breadcrumb .btn.btn-med:not(:last-child):after {
+  border-left: 10px solid #606060;
+}
+ .page-science .btn-breadcrumb .btn.btn-med:not(:last-child):before {
+  border-left: 10px solid #606060;
+}
+.page-science .btn-breadcrumb .btn.btn-med:hover:not(:last-child):after {
+  border-left: 10px solid #505050;
+}
+.page-science .btn-breadcrumb .btn.btn-med:hover:not(:last-child):before {
+  border-left: 10px solid #505050;
+}
+
+/** page dark button **/
+
+.page-science .btn-dark {
+    color: #FFF;
+    background-color: #404040;
+    border-color: #dfdfdf;
+}
+
+.page-science .btn-dark:hover {
+    color: #FFF;
+    background-color: #303030;
+    border-color: #dfdfdf;
+}
+
+.page-science .btn-breadcrumb .btn.btn-dark:not(:last-child):after {
+  border-left: 10px solid #404040;
+}
+ .page-science .btn-breadcrumb .btn.btn-dark:not(:last-child):before {
+  border-left: 10px solid #404040;
+}
+.page-science .btn-breadcrumb .btn.btn-dark:hover:not(:last-child):after {
+  border-left: 10px solid #303030;
+}
+.page-science .btn-breadcrumb .btn.btn-dark:hover:not(:last-child):before {
+  border-left: 10px solid #303030;
+}
+
